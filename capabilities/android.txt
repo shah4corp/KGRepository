@@ -1,0 +1,4 @@
+deviceName=Android Emulator
+platformVersion=9.0
+platformName=Android
+app=C:\Users\shahnawazm\workspace\MobileTest\Apps\ApiDemos-debug.apk
