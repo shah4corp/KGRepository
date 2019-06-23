@@ -1,4 +1,4 @@
 deviceName=Android Emulator
 platformVersion=9.0
 platformName=Android
-app=C:\Users\shahnawazm\workspace\MobileTest\Apps\ApiDemos-debug.apk
+app=C:\Users\shahnawazm\workspace\MobileTest\Apps\KloudGin_v19.2.apk

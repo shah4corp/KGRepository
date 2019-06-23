@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.klougin.mobile.app.MobileThree">
+      <class name="com.klougin.mobile.app.ChromeView">
         <methods>
-          <include name="testSampleTest"/>
+          <include name="chromeTransactions"/>
         </methods>
-      </class> <!-- com.klougin.mobile.app.MobileThree -->
+      </class> <!-- com.klougin.mobile.app.ChromeView -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
