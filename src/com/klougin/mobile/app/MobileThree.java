@@ -13,7 +13,7 @@ public class MobileThree extends BaseEngine{
 		//getAppium().findElement(By.xpath("//*[contains(@text,'Accessibility')]")).click();
 		getAppium().findElement(By.xpath("//*[contains(@text,'ALLOW')]")).click();
 		getAppium().findElement(By.xpath("//*[contains(@text,'ALLOW')]")).click();
-		getAppium().findElement(By.xpath("//*[contains(@text,'ALLOW')]")).click();
+		//getAppium().findElement(By.xpath("//*[contains(@text,'ALLOW')]")).click();
 		//getAppium().findElement(By.id("com.es.kloudgin:id/chooseProfile")).click();
 		/*getAppium().findElement(By.xpath("//*[contains(@text,'UAT')]")).click();
 		getAppium().findElement(By.xpath("//*[contains(@text,'Usernamae')]")).sendKeys("treno");
