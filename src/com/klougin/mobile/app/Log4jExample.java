@@ -17,7 +17,7 @@ public class Log4jExample {
       //BasicConfigurator.configure();
            
     	//{2}-initialize log4j
-		 PropertyConfigurator.configure(System.getProperty("user.dir") + "\\capabilities\\log4j.properties");
+		 PropertyConfigurator.configure(System.getProperty("user.dir") + "\\capabilities&files\\log4j.properties");
 	      
 		  logger.trace("This is Trace");    //trace level- minute level information
 	      logger.debug("This is DEBUG");    //trace level- minute level information

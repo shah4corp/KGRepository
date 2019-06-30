@@ -1,0 +1,15 @@
+2019-06-30 09:34:33 DEBUG (Log4jExample.java:main:23) - This is DEBUG
+2019-06-30 09:34:33  INFO (Log4jExample.java:main:24) - This is INFO
+2019-06-30 09:34:33  WARN (Log4jExample.java:main:25) - This is WARN
+2019-06-30 09:34:33 ERROR (Log4jExample.java:main:26) - This is ERROR
+2019-06-30 09:34:33 FATAL (Log4jExample.java:main:27) - This is FATAL
+2019-06-30 09:57:09 DEBUG (Log4jExample.java:main:23) - This is DEBUG
+2019-06-30 09:57:09  INFO (Log4jExample.java:main:24) - This is INFO
+2019-06-30 09:57:09  WARN (Log4jExample.java:main:25) - This is WARN
+2019-06-30 09:57:09 ERROR (Log4jExample.java:main:26) - This is ERROR
+2019-06-30 09:57:09 FATAL (Log4jExample.java:main:27) - This is FATAL
+2019-06-30 10:33:36 DEBUG (Log4jExample.java:main:23) - This is DEBUG
+2019-06-30 10:33:36  INFO (Log4jExample.java:main:24) - This is INFO
+2019-06-30 10:33:36  WARN (Log4jExample.java:main:25) - This is WARN
+2019-06-30 10:33:36 ERROR (Log4jExample.java:main:26) - This is ERROR
+2019-06-30 10:33:36 FATAL (Log4jExample.java:main:27) - This is FATAL

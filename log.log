@@ -1,5 +1,0 @@
-2019-06-24 06:51:48 DEBUG (Log4jExample.java:main:13) - This is DEBUG
-2019-06-24 06:51:48  INFO (Log4jExample.java:main:14) - This is INFO
-2019-06-24 06:51:48  WARN (Log4jExample.java:main:15) - This is WARN
-2019-06-24 06:51:48 ERROR (Log4jExample.java:main:16) - This is ERROR
-2019-06-24 06:51:48 FATAL (Log4jExample.java:main:17) - This is FATAL
