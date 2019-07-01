@@ -19,10 +19,7 @@ public class WriteDataExcelDemo {
             System.out.println("check the dynamic path of file Please enter the valid path");
 			e.printStackTrace();
 		}
-	Workbook workbook = WorkbookFactory.create(fip);
-	Sheet sheet = (Sheet) workbook.getSheet("myData");
-	
-	
+	Workbook workbook = WorkbookFactory.create(fip);	
 	}
 
 }
