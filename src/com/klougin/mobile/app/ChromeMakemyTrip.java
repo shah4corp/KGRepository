@@ -14,7 +14,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class ChromeView {
+public class ChromeMakemyTrip {
 @Test
 public void chromeTransactions() throws MalformedURLException, InterruptedException {
 	DesiredCapabilities capabs = new DesiredCapabilities();

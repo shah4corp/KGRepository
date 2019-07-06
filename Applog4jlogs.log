@@ -13,3 +13,53 @@
 2019-06-30 10:33:36  WARN (Log4jExample.java:main:25) - This is WARN
 2019-06-30 10:33:36 ERROR (Log4jExample.java:main:26) - This is ERROR
 2019-06-30 10:33:36 FATAL (Log4jExample.java:main:27) - This is FATAL
+2019-07-06 09:28:03 DEBUG (Log4jExample.java:main:23) - This is DEBUG
+2019-07-06 09:28:03  INFO (Log4jExample.java:main:24) - This is INFO
+2019-07-06 09:28:03  WARN (Log4jExample.java:main:25) - This is WARN
+2019-07-06 09:28:03 ERROR (Log4jExample.java:main:26) - This is ERROR
+2019-07-06 09:28:03 FATAL (Log4jExample.java:main:27) - This is FATAL
+2019-07-06 09:41:37 DEBUG (Log4jExample.java:main:23) - This is DEBUG
+2019-07-06 09:41:37  INFO (Log4jExample.java:main:24) - This is INFO
+2019-07-06 09:41:37  WARN (Log4jExample.java:main:25) - This is WARN
+2019-07-06 09:41:37 ERROR (Log4jExample.java:main:26) - This is ERROR
+2019-07-06 09:41:37 FATAL (Log4jExample.java:main:27) - This is FATAL
+2019-07-06 09:47:04 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
+2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
+2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
+2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
+2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
+2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
+2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
+2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
+2019-07-06 09:48:04 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
+2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
+2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
+2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
+2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
+2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
+2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
+2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
+2019-07-06 09:49:26 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
+2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
+2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
+2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
+2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
+2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
+2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
+2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
+2019-07-06 09:49:55 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
+2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
+2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
+2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
+2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
+2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
+2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
+2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
+2019-07-06 09:53:32 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
+2019-07-06 09:53:32  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
+2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
+2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
+2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
+2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
+2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
+2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main

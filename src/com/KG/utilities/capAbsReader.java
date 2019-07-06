@@ -14,7 +14,7 @@ public class capAbsReader {
 		DesiredCapabilities capAbs = new DesiredCapabilities();
 		BufferedReader reader;
 		try {
-			reader = new BufferedReader(new FileReader(System.getProperty("user.dir")+"\\capabilities\\android.txt"));
+			reader = new BufferedReader(new FileReader(System.getProperty("user.dir")+"\\capabilities&files\\android.txt"));
 			String line = reader.readLine();
 			while(line != null){
 			   System.out.println(line);
