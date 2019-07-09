@@ -1,4 +1,4 @@
-package com.klougin.mobile.app;
+package com.KG.Screenshots;
 
 import java.io.File;  
 import java.io.IOException;

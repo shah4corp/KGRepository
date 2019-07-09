@@ -7,7 +7,7 @@
         <methods>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="login"/>
+          <include name="logIn"/>
         </methods>
       </class> <!-- com.klougin.mobile.app.ScreenshotOne -->
     </classes>
