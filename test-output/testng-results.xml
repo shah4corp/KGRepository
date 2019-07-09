@@ -2,30 +2,60 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18572" started-at="2019-06-23T07:10:54Z" finished-at="2019-06-23T07:11:12Z">
+  <suite name="Default suite" duration-ms="67833" started-at="2019-07-09T03:23:47Z" finished-at="2019-07-09T03:24:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18572" started-at="2019-06-23T07:10:54Z" finished-at="2019-06-23T07:11:12Z">
-      <class name="com.klougin.mobile.app.ChromeView">
-        <test-method status="FAIL" signature="chromeTransactions()[pri:0, instance:com.klougin.mobile.app.ChromeView@2fc14f68]" name="chromeTransactions" duration-ms="18541" started-at="2019-06-23T12:40:54Z" finished-at="2019-06-23T12:41:12Z">
-          <exception class="io.appium.java_client.NoSuchContextException">
+    <test name="Default test" duration-ms="67833" started-at="2019-07-09T03:23:47Z" finished-at="2019-07-09T03:24:55Z">
+      <class name="com.klougin.mobile.app.ScreenshotOne">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.klougin.mobile.app.ScreenshotOne@396a51ab]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2019-07-09T08:53:47Z" finished-at="2019-07-09T08:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.klougin.mobile.app.ScreenshotOne.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.klougin.mobile.app.ScreenshotOne@396a51ab]" name="login" duration-ms="67074" started-at="2019-07-09T08:53:47Z" finished-at="2019-07-09T08:54:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#identifierI"}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'ESITLN048', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, databaseEnabled: false, desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, deviceName: Android Emulator, noReset: true, platformName: android, platformVersion: 9}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 720x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 08d6a32b-5314-4426-9de0-1fa65db0341c]]>
+System info: host: 'ESITLN048', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\SHAHNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a748f841af5aba277d3481e2ee59678
+*** Element info: {Using=id, value=identifierI}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#identifierI"}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'ESITLN048', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, databaseEnabled: false, desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, deviceName: Android Emulator, noReset: true, platformName: android, platformVersion: 9}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 720x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 08d6a32b-5314-4426-9de0-1fa65db0341c
-	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:201)
-	at com.klougin.mobile.app.ChromeView.chromeTransactions(ChromeView.java:40)
+System info: host: 'ESITLN048', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\SHAHNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a748f841af5aba277d3481e2ee59678
+*** Element info: {Using=id, value=identifierI}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.klougin.mobile.app.ScreenshotOne.login(ScreenshotOne.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -47,37 +77,27 @@ Session ID: 08d6a32b-5314-4426-9de0-1fa65db0341c
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'ESITLN048', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, databaseEnabled: false, desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, deviceName: Android Emulator, noReset: true, platformName: android, platformVersion: 9}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 720x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 08d6a32b-5314-4426-9de0-1fa65db0341c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:198)
-	... 25 more
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.appium.java_client.NoSuchContextException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chromeTransactions -->
-      </class> <!-- com.klougin.mobile.app.ChromeView -->
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.klougin.mobile.app.ScreenshotOne@396a51ab]" name="afterMethod" is-config="true" duration-ms="719" started-at="2019-07-09T08:54:54Z" finished-at="2019-07-09T08:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=FAILURE method=ScreenshotOne.login()[pri:0, instance:com.klougin.mobile.app.ScreenshotOne@396a51ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.klougin.mobile.app.ScreenshotOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
