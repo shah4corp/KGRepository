@@ -3,7 +3,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
-import org.apache.log4j.xml.DOMConfigurator;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
@@ -19,7 +19,7 @@ public class YatraWithLog4j {
 	 @Test
 	 public void testYatraTest() throws MalformedURLException, InterruptedException {
 
-	  DOMConfigurator.configure(System.getProperty("user.dir") + "\\capabilities&files\\log4j.properties");
+      PropertyConfigurator.configure(System.getProperty("user.dir") + "\\capabilities&files\\log4j.properties");
 	  
 	  log.debug("This is debug message");
 	  log.info("**** INITIALIZING CAPABILITIES ***********");
@@ -44,7 +44,7 @@ public class YatraWithLog4j {
 	  log.info(" PORT: 4723");
 	  log.info(" URL : http://0.0.0.0:4723/wd/hub");
 	  
-	  appium.get("https://www.yatra.com/pwa/home.html?redirect=no");
+	  appium.get("https://www.yatra.com");
 	  log.info("Loading URL on chrome browser as : https://www.yatra.com/pwa/home.html?redirect=no");
 	  appium.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	  log.info("Waiting to load the URL");

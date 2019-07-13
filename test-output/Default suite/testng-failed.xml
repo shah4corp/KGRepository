@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.klougin.mobile.app.ChromeMakemyTrip">
+      <class name="com.klougin.mobile.app.YatraWithLog4j">
         <methods>
-          <include name="chromeTransactions"/>
+          <include name="testYatraTest"/>
         </methods>
-      </class> <!-- com.klougin.mobile.app.ChromeMakemyTrip -->
+      </class> <!-- com.klougin.mobile.app.YatraWithLog4j -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

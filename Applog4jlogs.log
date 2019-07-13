@@ -1,75 +1,24 @@
-2019-06-30 09:34:33 DEBUG (Log4jExample.java:main:23) - This is DEBUG
-2019-06-30 09:34:33  INFO (Log4jExample.java:main:24) - This is INFO
-2019-06-30 09:34:33  WARN (Log4jExample.java:main:25) - This is WARN
-2019-06-30 09:34:33 ERROR (Log4jExample.java:main:26) - This is ERROR
-2019-06-30 09:34:33 FATAL (Log4jExample.java:main:27) - This is FATAL
-2019-06-30 09:57:09 DEBUG (Log4jExample.java:main:23) - This is DEBUG
-2019-06-30 09:57:09  INFO (Log4jExample.java:main:24) - This is INFO
-2019-06-30 09:57:09  WARN (Log4jExample.java:main:25) - This is WARN
-2019-06-30 09:57:09 ERROR (Log4jExample.java:main:26) - This is ERROR
-2019-06-30 09:57:09 FATAL (Log4jExample.java:main:27) - This is FATAL
-2019-06-30 10:33:36 DEBUG (Log4jExample.java:main:23) - This is DEBUG
-2019-06-30 10:33:36  INFO (Log4jExample.java:main:24) - This is INFO
-2019-06-30 10:33:36  WARN (Log4jExample.java:main:25) - This is WARN
-2019-06-30 10:33:36 ERROR (Log4jExample.java:main:26) - This is ERROR
-2019-06-30 10:33:36 FATAL (Log4jExample.java:main:27) - This is FATAL
-2019-07-06 09:28:03 DEBUG (Log4jExample.java:main:23) - This is DEBUG
-2019-07-06 09:28:03  INFO (Log4jExample.java:main:24) - This is INFO
-2019-07-06 09:28:03  WARN (Log4jExample.java:main:25) - This is WARN
-2019-07-06 09:28:03 ERROR (Log4jExample.java:main:26) - This is ERROR
-2019-07-06 09:28:03 FATAL (Log4jExample.java:main:27) - This is FATAL
-2019-07-06 09:41:37 DEBUG (Log4jExample.java:main:23) - This is DEBUG
-2019-07-06 09:41:37  INFO (Log4jExample.java:main:24) - This is INFO
-2019-07-06 09:41:37  WARN (Log4jExample.java:main:25) - This is WARN
-2019-07-06 09:41:37 ERROR (Log4jExample.java:main:26) - This is ERROR
-2019-07-06 09:41:37 FATAL (Log4jExample.java:main:27) - This is FATAL
-2019-07-06 09:47:04 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
-2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
-2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
-2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
-2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
-2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
-2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
-2019-07-06 09:47:04  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
-2019-07-06 09:48:04 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
-2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
-2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
-2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
-2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
-2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
-2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
-2019-07-06 09:48:04  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
-2019-07-06 09:49:26 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
-2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
-2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
-2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
-2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
-2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
-2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
-2019-07-06 09:49:26  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
-2019-07-06 09:49:55 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
-2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
-2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
-2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
-2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
-2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
-2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
-2019-07-06 09:49:55  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
-2019-07-06 09:53:32 DEBUG (YatraWithLog4j.java:main:22) - This is debug message
-2019-07-06 09:53:32  INFO (YatraWithLog4j.java:main:23) - **** INITIALIZING CAPABILITIES ***********
-2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:26) -  AUTOMATION_NAME = ChromeMakemyTrip
-2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:28) -  PLATFORM_NAME = Android
-2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:30) -  DEVICE_NAME = Android Emulator
-2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:32) -  PLATFORM_VERSION = 9.0
-2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:34) -  APP_PACKAGE = com.android.chrome
-2019-07-06 09:53:33  INFO (YatraWithLog4j.java:main:36) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
-2019-07-08 21:42:49 DEBUG (Log4jExample.java:main:23) - This is DEBUG
-2019-07-08 21:42:49  INFO (Log4jExample.java:main:24) - This is INFO
-2019-07-08 21:42:49  WARN (Log4jExample.java:main:25) - This is WARN
-2019-07-08 21:42:49 ERROR (Log4jExample.java:main:26) - This is ERROR
-2019-07-08 21:42:49 FATAL (Log4jExample.java:main:27) - This is FATAL
-2019-07-08 21:51:05 DEBUG (Log4jExample.java:main:23) - This is DEBUG
-2019-07-08 21:51:05  INFO (Log4jExample.java:main:24) - This is INFO
-2019-07-08 21:51:05  WARN (Log4jExample.java:main:25) - This is WARN
-2019-07-08 21:51:05 ERROR (Log4jExample.java:main:26) - This is ERROR
-2019-07-08 21:51:05 FATAL (Log4jExample.java:main:27) - This is FATAL
+2019-07-13 16:46:48 DEBUG (ChromeMakemyTrip.java:chromeTransactions:26) - This is debug message
+2019-07-13 16:46:48  INFO (ChromeMakemyTrip.java:chromeTransactions:27) - **** INITIALIZING CAPABILITIES ***********
+2019-07-13 16:46:48  INFO (ChromeMakemyTrip.java:chromeTransactions:29) -  DEVICE_NAME = Android Emulator
+2019-07-13 16:46:48  INFO (ChromeMakemyTrip.java:chromeTransactions:31) -  PLATFORM_VERSION = 9.0
+2019-07-13 16:46:48  INFO (ChromeMakemyTrip.java:chromeTransactions:33) -  PLATFORM_NAME = Android
+2019-07-13 16:46:48  INFO (ChromeMakemyTrip.java:chromeTransactions:35) -  APP_PACKAGE = com.android.chrome
+2019-07-13 16:46:48  INFO (ChromeMakemyTrip.java:chromeTransactions:37) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
+2019-07-13 16:46:53  INFO (ChromeMakemyTrip.java:chromeTransactions:41) - ******** INITIATING IOS DRIVER ****************
+2019-07-13 16:46:53  INFO (ChromeMakemyTrip.java:chromeTransactions:42) -  HOST: 0.0.0.0
+2019-07-13 16:46:53  INFO (ChromeMakemyTrip.java:chromeTransactions:43) -  PORT: 4723
+2019-07-13 16:46:53  INFO (ChromeMakemyTrip.java:chromeTransactions:44) -  URL : http://0.0.0.0:4723/wd/hub
+2019-07-13 16:49:16 DEBUG (ChromeMakemyTrip.java:chromeTransactions:26) - This is debug message
+2019-07-13 16:49:16  INFO (ChromeMakemyTrip.java:chromeTransactions:27) - **** INITIALIZING CAPABILITIES ***********
+2019-07-13 16:49:16  INFO (ChromeMakemyTrip.java:chromeTransactions:29) -  DEVICE_NAME = Android Emulator
+2019-07-13 16:49:16  INFO (ChromeMakemyTrip.java:chromeTransactions:31) -  PLATFORM_VERSION = 9.0
+2019-07-13 16:49:16  INFO (ChromeMakemyTrip.java:chromeTransactions:33) -  PLATFORM_NAME = Android
+2019-07-13 16:49:16  INFO (ChromeMakemyTrip.java:chromeTransactions:35) -  APP_PACKAGE = com.android.chrome
+2019-07-13 16:49:16  INFO (ChromeMakemyTrip.java:chromeTransactions:37) -  APP_ACTIVITY = com.google.android.apps.chrome.Main
+2019-07-13 16:49:21  INFO (ChromeMakemyTrip.java:chromeTransactions:41) - ******** INITIATING IOS DRIVER ****************
+2019-07-13 16:49:21  INFO (ChromeMakemyTrip.java:chromeTransactions:42) -  HOST: 0.0.0.0
+2019-07-13 16:49:21  INFO (ChromeMakemyTrip.java:chromeTransactions:43) -  PORT: 4723
+2019-07-13 16:49:21  INFO (ChromeMakemyTrip.java:chromeTransactions:44) -  URL : http://0.0.0.0:4723/wd/hub
+2019-07-13 16:49:22  INFO (ChromeMakemyTrip.java:chromeTransactions:46) - Loading URL on chrome browser as : https://www.yatra.com/pwa/home.html?redirect=no
+2019-07-13 16:49:22  INFO (ChromeMakemyTrip.java:chromeTransactions:48) - Waiting to load the URL
